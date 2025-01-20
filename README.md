@@ -1,18 +1,36 @@
-# Data Cleaning and EDA with Time Series Data
+# Data Cleaning and EDA with Time Series Data - Assignment 2.1: Data Cleaning and EDA with Time Series Data
+This repository contains the code and analysis for Assignment 2.1: Data Cleaning and EDA with Time Series Data, part of the AAI 530 course.
 
-Cleaning and exploring your data is a crucial first step in any data project. In this assignment you will practice these skills on a real IoT dataset of electricity consumption data for a single household over four years. You will practice normalizing datatypes, handling missing data, visualizing and regularizing time series data, and identifying covariance in your data. 
+**Overview**
+This assignment focuses on cleaning and exploring time series data from the Individual Household Electric Power Consumption Dataset. Key objectives include:
 
-### Instructions: 
+Data cleaning (handling missing values, formatting datetime columns).
+Exploratory Data Analysis (EDA) with time series visualizations.
+Computing and analyzing monthly and moving averages.
+Investigating covariance and correlation between variables.
+**Dataset**
+The dataset used is from the UCI Machine Learning Repository and contains four years of household power consumption data.
 
-1. Create a repository under your GitHub account from this template: https://github.com/amarbut/aai-iot-cleaning-and-eda. Instructions can be found [here](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template). Make your repository [private](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/setting-repository-visibility) and add your instructor’s Github account as a [collaborator](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-user-account/managing-access-to-your-personal-repositories/inviting-collaborators-to-a-personal-repository). 
-
-2. Following the instructions in the jupyter notebook from the above Github template, perform basic data cleaning steps on the Household Electric Consumption Dataset which can be downloaded [here](https://archive.ics.uci.edu/ml/datasets/Individual+household+electric+power+consumption#) .
-
-3. Also following the instructions in the jupyter notebook, perform an explanatory data analysis on the cleaned dataset, including visualizations typical for time series data and a consideration of covariance between variables in the dataset.
-
-Assignment Materials:
-* [Cleaning and EDA Repository](https://github.com/amarbut/aai-iot-cleaning-and-eda)
-
-Deliverables:
-* When you have finished your code, print your notebook as a PDF and upload it to Blackboard. 
-* Commit your code and push the changes to GitHub so your instructor has access to the ipynb notebook files and any other code you create.
+***Key Features of the Analysis****
+**Data Cleaning:**
+Combined Date and Time columns into a Datetime column.
+Converted numeric columns and handled missing values.
+**EDA:**
+Visualized raw data and patterns over time.
+Computed and plotted monthly and 30-day moving averages.
+Examined distributions and outliers using histograms and boxplots.
+Covariance and Correlation:
+Computed covariance and correlation matrices.
+Visualized relationships using scatter matrices and heatmaps.
+**File Structure**
+Cleaning & EDA Assignment.ipynb: Jupyter Notebook containing the analysis and results.
+household_power_consumption.txt: Dataset used in the analysis.
+**Instructions**
+Clone the repository:
+git clone https://github.com/your_username/your_repo_name.git
+Open the notebook Cleaning & EDA Assignment.ipynb in Jupyter Notebook or Google Colab.
+Run all cells to reproduce the analysis
+**Results**
+Identified seasonal trends in power usage.
+Highlighted correlations between key variables like Global_active_power and Global_intensity.
+Addressed data cleaning issues, such as missing values and formatting.
