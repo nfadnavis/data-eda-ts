@@ -1,4 +1,4 @@
-# Data Cleaning and EDA with Time Series Data - Assignment 2.1: Data Cleaning and EDA with Time Series Data
+# Data Cleaning and EDA with Time Series - Assignment 2.1: Data Cleaning and EDA with Time Series Data
 This repository contains the code and analysis for Assignment 2.1: Data Cleaning and EDA with Time Series Data, part of the AAI 530 course.
 
 **Overview**
